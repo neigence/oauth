@@ -1,0 +1,20 @@
+{
+    "system": {
+        "version": "1.0"
+    },
+    "redis": {
+        "host": "localhost",
+        "port": 6379,
+        "defaultlifetime": 86400
+    },
+    "mysql": [
+        {
+        "type": "master",
+        "host": "localhost",
+        "user": "root",
+        "password": "********",
+        "database": "********",
+        "connectionLimit": 10
+        }
+    ]
+}
